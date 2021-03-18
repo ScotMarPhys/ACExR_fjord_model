@@ -1,0 +1,5 @@
+    Const.ce = 3.2e-9;
+    Const.est = 0.5e5;
+    Const.gamma = 0.28;
+    Const.lambda = -2.0;
+    Const.mu = 1.94;

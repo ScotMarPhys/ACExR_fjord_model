@@ -1,0 +1,29 @@
+Eriboll test run:
+
+I managed to make 3-layer box model working with some adjustments for Loch Eriboll 
+with the climatology data (1970-2006) and have put the results of one year run 
+('results.mat') and some figures in folder:
+T:\Dima\box_model\Eriboll\ACExR\code\results\
+
+According to the statistics analysis from the file \Eriboll_stat.mat
+you can conclude that mean flushing time is: 
+
+Stat.TF1_stats(3)  = 43.2 days (upper layer)
+Stat.TF2_stats(3)  = 12.2 days (middle)
+Stat.TF1p2_stats(3)= 19.6 days (both )
+
+more details on statistics available in ‘plot_results.m’  and the time-series of TF_1, TF_2 are in Model_fluxes.png attached.
+
+I can also provide my local copy of the code (adjusted) if needed.
+The input data I used  for this run are in a folder:
+T:\Dima\box_model\Eriboll\ACExR\in\
+
+
+
+PS
+From Table TA1 in the submitted paper (2012) :
+The median (TF) and 95%-ile (TF95) flushing times of the combined surface and intermediate layers are also given (days) for
+Eriboll   : TF=17.7, TF95=29.0
+In my run : TF=18.1, TF95=29.0
+
+Dima
